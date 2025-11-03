@@ -2,7 +2,12 @@
 Utility to get information about players and worldsw located on JustMC.
 ## Usage
 1. Download program from releases, put it to suitable diretory;
-2. Open terminal there, execute following command:
+1.1 If you're using Windows as host OS, use command
+```
+chcp 65001
+```
+to fix charsets issues. If it does not work, well, google for help.
+3. Open terminal there, execute following command:
 ```
 $ java -jar jmcr.jar
 ```
@@ -48,7 +53,7 @@ To retrieve data about world by its ID. Whole bunch of data, to be more precise:
 | Categories | List of them |
 | Resource pack | It's direct URL |
 
-## Building and modifing
+## Building and modifying
 idk you're on your own here. Feel free to do anything with this piece of code.
 
 ## That's it
